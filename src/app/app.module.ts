@@ -11,6 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { EditCategoryComponent } from './feature/category/edit-category/edit-category.component';
 import { AddBlogpostComponent } from './feature/blog-post/add-blogpost/add-blogpost.component';
 import { BlogpostListComponent } from './feature/blog-post/blogpost-list/blogpost-list.component';
+import { MarkdownModule } from 'ngx-markdown';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { BlogpostListComponent } from './feature/blog-post/blogpost-list/blogpos
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    MarkdownModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

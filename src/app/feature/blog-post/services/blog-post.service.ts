@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
-import { AddBlogPost } from './model/add-blog-post.model';
+import { AddBlogPost } from '../model/add-blog-post.model';
 import { Observable } from 'rxjs';
-import { BlogPost } from './model/blog-post.model';
+import { BlogPost } from '../model/blog-post.model';
 import { HttpClient } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
 
